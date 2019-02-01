@@ -1,6 +1,6 @@
 # Adonis fullstack application
 
-This is the fullstack boilerplate for AdonisJs, it comes pre-configured with.
+This is the fullstack boilerplate for AdonisJs + Bootstrap, it comes pre-configured with.
 
 1. Bodyparser
 2. Session
@@ -11,21 +11,16 @@ This is the fullstack boilerplate for AdonisJs, it comes pre-configured with.
 7. Lucid ORM
 8. Migrations and seeds
 
+Customized
+
+1. Bootstrap
+2. jQuery
+3. Laravel-mix
+
 ## Setup
 
-Use the adonis command to install the blueprint
+Manually clone the repo and then run `npm install`.
 
-```bash
-adonis new yardstick
-```
+Run `npm run watch` to auto compile the changes the sass files and scripts while development
 
-or manually clone the repo and then run `npm install`.
-
-
-### Migrations
-
-Run the following command to run startup migrations.
-
-```js
-adonis migration:run
-```
+Run `npm run production` to compile and minify the sass files and scripts for production
