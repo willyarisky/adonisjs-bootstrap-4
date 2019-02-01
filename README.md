@@ -16,6 +16,7 @@ Customized
 1. Bootstrap
 2. jQuery
 3. Laravel-mix
+4. Autoprefixer
 
 ## Setup
 
